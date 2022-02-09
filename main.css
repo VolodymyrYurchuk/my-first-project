@@ -1,0 +1,81 @@
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  display: block;
+  margin-left: -10000px;
+  background: transparent;
+  font-size: 0;
+}
+
+/*Grid*/
+
+.line {
+  border: 1px solid #990000;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+  width: 1440px;
+  height: 659px;
+  left: 176px;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+
+  padding-top: 215px;
+  margin-left: 176px;
+}
+
+.Imagine {
+  width: 730px;
+  height: 62px;
+  font-family: Open Sans;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.Building {
+  width: 604px;
+  height: 39px;
+  font-family: Open Sans;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.button {
+}
+
+.btn {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  width: 181px;
+  height: 59px;
+  left: 176px;
+  top: 520px;
+  background-color: #990000;
+}
+
+.picture_build {
+}

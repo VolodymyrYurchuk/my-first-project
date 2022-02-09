@@ -1,0 +1,46 @@
+.footer {
+  
+}
+
+.footer_block {
+ /* width: 1440px;
+  height: 980px;*/
+ 
+}
+
+.footer_paragraphs {
+  display: flex;
+  justify-content: center;
+  padding-top: 107px; 
+}
+
+.our_working {
+ font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+letter-spacing: 0.03em;
+color: #000000;
+
+}
+
+.rectangle {
+  padding-top: 5px;
+}
+
+.text_cols {
+  display: flex;
+    justify-content: space-around;
+  text-align: start;
+}
+
+.column {
+  width: 370px;
+  height: 118px;
+  margin-top: 118px;
+}
+
+.textcols-item + .textcols-item {
+  margin-left: 4%;
+}

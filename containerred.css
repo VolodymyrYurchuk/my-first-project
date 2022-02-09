@@ -1,0 +1,70 @@
+.container_red {
+   background: #990000;
+  width: 1440px;
+  height: 460px;
+  top: 1255px;
+}
+
+.red_container {
+ 
+}
+
+.white_get {
+ display: flex;
+ justify-content: start;
+ padding-left: 176px;
+ padding-top: 100px;
+ }
+
+ .foot_block {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding-left: 176px;
+padding-right: 222px;
+ }
+
+.our {
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.combining {
+  width: 510px;
+  height: 89px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.button2 {
+  
+
+}
+
+.btnn {
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #990000;
+  width: 181px;
+  height: 59px;
+  left: 1037px;
+  top: 254px;
+  background: #ffffff;
+}

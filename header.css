@@ -1,0 +1,67 @@
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  display: block;
+
+  background: transparent;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Grid*/
+
+.body {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  padding-top: 26px;
+  padding-bottom: 29px;
+  background: #FFFFFF;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #FFFFFF;
+}
+
+.header-logo {
+  padding-left: 28px;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background: #FFFFFF;
+  padding-left: 514px;
+}
+
+.link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-right: 41px;
+}
