@@ -2,6 +2,8 @@
   display: none !important;
 }
 
+/*header navs*/
+
 .visually-hidden {
   position: absolute;
   opacity: 0;
@@ -30,6 +32,7 @@ a {
 }
 
 .header {
+  
   display: flex;
   padding-top: 26px;
   padding-bottom: 29px;

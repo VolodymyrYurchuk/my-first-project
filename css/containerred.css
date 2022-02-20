@@ -1,31 +1,33 @@
 .container_red {
-   background: #990000;
-  width: 1440px;
-  height: 460px;
-  top: 1255px;
+   background-color: #990000;
+   background-blend-mode: multiply;
+   width: 1440px;
+   height: 460px;
+   top: 1255px;
 }
 
-.red_container {
- 
+.reds {
+  background-image: url(../picture/picture-drawing.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .white_get {
- display: flex;
- justify-content: start;
- padding-left: 176px;
- padding-top: 100px;
+  display: flex;
+  justify-content: start;
+  padding-left: 176px;
+  padding-top: 100px;
  }
 
  .foot_block {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-padding-left: 176px;
-padding-right: 222px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 176px;
+  padding-right: 222px;
  }
 
 .our {
-  
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -47,13 +49,8 @@ padding-right: 222px;
   color: #ffffff;
 }
 
-.button2 {
-  
-
-}
-
 .btnn {
-  
+  cursor: pointer;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -67,4 +64,8 @@ padding-right: 222px;
   left: 1037px;
   top: 254px;
   background: #ffffff;
+}
+
+.btnn:hover {
+  opacity: 0.9;
 }
